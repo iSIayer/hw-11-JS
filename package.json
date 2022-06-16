@@ -1,0 +1,29 @@
+{
+  "name": "hw-11-js",
+  "version": "1.0.0",
+  "description": "**Read in other languages: [Русский](README.md)**",
+  "homepage": "https://isiayer.github.io/hw-11-JS/",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /hw-11-JS/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iSIayer/hw-11-JS.git"
+  },
+  "author": "Ihor Kolontaievkiy <gamerspeed86@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iSIayer/hw-11-JS/issues"
+  },
+  "devDependencies": {
+    "parcel": "^2.6.0"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "lodash.debounce": "^4.0.8",
+    "notiflix": "^3.2.5",
+    "simplelightbox": "^2.10.3"
+  }
+}
