@@ -1,8 +1,8 @@
-import "./css/styles.css";
+import './css/styles.css';
 // Описан в документации
-import SimpleLightbox from "simplelightbox";
+import SimpleLightbox from 'simplelightbox';
 // Дополнительный импорт стилей
-import "simplelightbox/dist/simple-lightbox.min.css";
+import 'simplelightbox/dist/simple-lightbox.min.css';
 // Плавная прокрутка страницы
 // const { height: cardHeight } = document
 //   .querySelector(".gallery")
@@ -12,3 +12,5 @@ import "simplelightbox/dist/simple-lightbox.min.css";
 //   top: cardHeight * 2,
 //   behavior: "smooth",
 // });
+
+// Create a new instance of SimpleLightbox

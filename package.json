@@ -18,7 +18,9 @@
     "url": "https://github.com/iSIayer/hw-11-JS/issues"
   },
   "devDependencies": {
-    "parcel": "^2.6.0"
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
   },
   "dependencies": {
     "axios": "^0.27.2",
