@@ -14,3 +14,5 @@ import 'simplelightbox/dist/simple-lightbox.min.css';
 // });
 
 // Create a new instance of SimpleLightbox
+// Правка под браузеры
+// Qwerty и другие браузеры не поддерживают плагин SimpleLightbox
