@@ -30,6 +30,7 @@ function onSearchForm(e) {
     lightBox();
     fetchImage.incrementCountHits(data.hits.length);
     Notify.success(`Отлично! Мы нашли ${data.totalHits} изображений.`);
+    document.querySelector('.welcome-text').style.display = 'none';
   });
 }
 // Активируем появление кнопки возврата наверх
@@ -76,7 +77,7 @@ function hideLoader() {
 
 function onScrollUp(e) {
   e.preventDefault();
-  refs.form.scrollIntoView({
+  document.body.scrollIntoView({
     behavior: 'smooth',
     block: 'start',
   });

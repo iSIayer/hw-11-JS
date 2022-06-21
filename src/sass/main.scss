@@ -32,6 +32,23 @@ img {
   height: 100%;
 }
 
+.welcome-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 68px;
+  font-style: italic;
+  font-weight: normal;
+  cursor: pointer;
+  text-shadow: 0 0 15px #999;
+  color: black;
+  transition: all 0.5s;
+  &:hover {
+    text-shadow: 0 0 0 #333;
+  }
+}
+
 .search-form {
   position: fixed;
   top: 0;
